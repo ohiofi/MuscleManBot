@@ -7,6 +7,11 @@ error_reporting(E_ALL);
 // by Justin Riley
 // 2017.04.28
 
+$consumer_key = "xxx";
+$consumer_secret = "xxx";
+$access_key = "xxx";
+$access_secret = "xxx";
+
 function punctCut($inputString)
 {
   if( ($stringPosition = strpos($inputString, "U.S. ")) !== FALSE )// Convert " U.S. " to " US "
@@ -17,6 +22,8 @@ function punctCut($inputString)
     $inputString = strstr($inputString,".",true);
   if( ($stringPosition = strpos($inputString, "!")) !== FALSE )// Cut at "!"
     $inputString = strstr($inputString,"!",true);
+  if( ($stringPosition = strpos($inputString, "|")) !== FALSE )// Cut at "|"
+    $inputString = strstr($inputString,"|",true);
   if( ($stringPosition = strpos($inputString, "http")) !== FALSE )// Cut at "!"
     $inputString = strstr($inputString,"http",true);
   if( ($stringPosition = strpos($inputString, "www")) !== FALSE )// Cut at "!"
@@ -33,15 +40,12 @@ function punctCut($inputString)
     $inputString = str_replace(" man "," woman ",$inputString);
 
   $inputString = trim($inputString);
-  if(strlen($inputString) > 140)
-    $inputString = substr($inputString, 0, 138);// If tweet is too long, shorten it.
+  if(strlen($inputString) > 280)
+    $inputString = substr($inputString, 0, 275);// If tweet is too long, shorten it.
   return $inputString;
 }
 
-$consumer_key = "xxx";
-$consumer_secret = "xxx";
-$access_key = "xxx";
-$access_secret = "xxx";
+
 
 require_once('twitteroauth.php');// Use the twitteroauth library
 $lastTweetScreenName=NULL;
@@ -139,6 +143,8 @@ foreach($timeline as $tweet) {// Loop the following for each search result
     AND (($stringPosition = strpos($lower_tweet_str, "death")) == FALSE)
     AND (($stringPosition = strpos($lower_tweet_str, "abuse")) == FALSE)
     AND (($stringPosition = strpos($lower_tweet_str, "attack")) == FALSE)
+    AND (($stringPosition = strpos($lower_tweet_str, "breathe")) == FALSE)
+    AND (($stringPosition = strpos($lower_tweet_str, "covid")) == FALSE)
     AND (($stringPosition = strpos($lower_tweet_str, "gay")) == FALSE)
     AND (($stringPosition = strpos($lower_tweet_str, "lgbt")) == FALSE)
     AND (($stringPosition = strpos($lower_tweet_str, "trans")) == FALSE)
