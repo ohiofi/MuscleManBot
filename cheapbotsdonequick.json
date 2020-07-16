@@ -49,12 +49,24 @@
 "#sign#"
 ],
 "sign":[
-
 "┌----------┐\n | MY MOM!! |\n└----------┘\n(|__/) ||\n(•ㅅ•)||\n/ 　 づ"
 ],
 	"os":["O#os#","O#os#","O#os#","O#os#","O"],
 	"exs":["!#exs#","!#exs#","!#exs#","!#exs#","!#exs#","!#exs#","!","1#exs#"],
-
 "emo":["🤣 🤣 🤣","​🏋️‍♂️​💪​🏋️‍♀️​","​💪​🌎​🏆​","​💪​🔥​","​💪​😎​","👩‍🍼","👩‍👦","🐦 🦝 🤢"]
+}
 
+
+
+
+
+
+
+
+{
+	"get out|GET OUT|Get out|Get Out|Leave":"It was worth it!",
+	"UGH|ugh|Ugh":"You know who else says \"Ugh\"? MY MOM!",
+	"Uncle|uncle|UNCLE":"You know who taught him?!?! MY MOM!",
+	"Dad|dad|DAD":"Why does everyone always think I'm gonna say \"my mom\"?",
+	"you|me|mom|mother|MOM|Mom|ma|who|WHO|Who|dad|my|know|What|what|say":"#myMom#"
 }
