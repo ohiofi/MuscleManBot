@@ -40,8 +40,8 @@ function punctCut($inputString)
     $inputString = str_replace(" man "," woman ",$inputString);
 
   $inputString = trim($inputString);
-  if(strlen($inputString) > 280)
-    $inputString = substr($inputString, 0, 275);// If tweet is too long, shorten it.
+  //if(strlen($inputString) > 280)
+    //$inputString = substr($inputString, 0, 275);// If tweet is too long, shorten it.
   return $inputString;
 }
 
@@ -163,7 +163,8 @@ foreach($timeline as $tweet) {// Loop the following for each search result
       $twitter->post('statuses/update', array('status' => $replyTweet,'in_reply_to_status_id' => $tweet->id_str));// Post tweet
   	  //$result = $twitter->post('statuses/update', array('status' => $myTweet));
   	  //echo $result;
-  	  echo "<br/>";print_r($result);
+  	  echo "<br/>";
+      //print_r($result);
       $newTweetCount++;
       break;
     }
