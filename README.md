@@ -1,2 +1,2 @@
 # MuscleManBot
-A bot that repeats one joke over and over
+A Twitterbot that repeats one joke over and over
