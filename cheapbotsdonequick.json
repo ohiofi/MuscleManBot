@@ -21,22 +21,42 @@
 "#ascii#",
 "#fancy#"
 ],
-"sign":[
-"┌----------┐\n | MY MOM!! |\n└----------┘\n( \\\\ __/)||\n(•ㅅ•) ||\n/ 　 づ"
-],
-	"os":["O#os#","O#os#","O#os#","O#os#","O"],
-	"exs":["!#exs#","!#exs#","!#exs#","!#exs#","!#exs#","!#exs#","!","1#exs#"],
+"sign":["┌----------┐\n | MY MOM!! |\n└----------┘\n( \\\\ __/)||\n(•ㅅ•) ||\n/ 　 づ"],
+	"os":["O#os#","O#os#","O#os#","O#os#","O#os#","0#os#","O", "0"],
+	"exs":["!#exs#","!#exs#","!#exs#","!#exs#","!#exs#","1#exs#","!","!!"],
 "emo":["🤣🤣🤣","​🏋️‍♂️​💪​🏋️‍♀️​","​💪​🌎​🏆​","​💪​🔥​","​💪​😎​","👩‍🍼","👩‍👦","🐦 🦝 🤢","🤰","🕺","🧟‍♂️","🤢🙏👻","🔥","​💪​🤣​","👕🕺","👕💪"],
 "ascii":[
 "( \\\\ __/)\n( • . •)\n/ >👩 　your mom?! nooo...\n\n( \\\\ __/)\n( • - •)\n👩< \\\\ 　MY M#os#M#exs#",
-"(•_•)\n<)　)╯MY　\n /　 \\\\ 　\n　\n\\\\(•_•)\n(　(> 　M#os#M#exs#\n /　\\\\ \n \n(•_•) 👕\n<)　)╯ WOOO#os#!#exs#\n /　\\\\",
+"(•_•)\n<)　)╯MY　\n /　\\\\ 　\n　\n\\\\(•_•)\n(　(> 　M#os#M#exs#\n /　\\\\ \n \n(•_•) 👕\n<)　)╯ WOOO#os#!#exs#\n /　\\\\",
 "zzz\n　＜⌒/ヽ-､_＿_\n/＜_/＿＿＿＿/\n￣￣￣￣￣￣￣\n\n　　　∧_∧\n　　 (　･ω･)　MY M#os#M#exs#\n　 ＿|　⊃／(＿＿_\n／　└-(＿＿＿_／\n￣￣￣￣￣￣￣",
 "▬▬▬▬▬▬▬.◙.▬▬▬▬▬▬▬\n ═▂▄▄▓▄▄▂ \n◢◤ █▀▀████▄▄▄▄◢◤ \n█▄ █ █▄ ███▀▀▀▀▀▀▀╬ \n◥█████◤\n══╩══╩═\n╬═╬\n╬═╬\n╬═╬\n╬═╬\n╬═╬　just dropped down to say\n╬═╬\n╬═╬　MY M#os#M#exs#\n╬═╬🤢/\n╬═╬/▌\n╬═╬/  \\\\",
 "Howdy...\n　 　 　 　🤠\n　　　🤰 🤰 🤰\n　　🤰　🤰　🤰 \n　 👇　🤰 🤰　👇\n　　　🤰　🤰\n　　　🤰　🤰\n　　　👢　👢\n　　MY M#os#M#exs#",
 "#sign#",
 "(っ◔◡◔)っ ♥ MY MOM! ♥"
 ],
-"fancy":["M̴̡̢̧̨̛̖̗̘̙̜̝̞̟̠̤̀́̕͘Ỳ̛̖̗̘̙̜̕ ̛̖̗̘̙̜̕M̛̖̗̀́̕͘Ờ̖̗̘̙̜̝̞́̕͘M̖̗̘̙̜̝̞̟̠̕!̖̕","𝓜𝓨 𝓜𝓞𝓜!","𝕄𝕐 𝕄𝕆𝕄!","𝘔𝘠 𝘔𝘖𝘔","𝙼𝚈 𝙼𝙾𝙼!","M҉Y҉ ҉M҉O҉M҉!҉","ᴍʏ ᴍᴏᴍ!","M̾Y̾ ̾M̾O̾M̾!̾","M͎Y͎ ͎M͎O͎M͎!͎","🅼🆈 🅼🅾🅼","🅜🅨 🅜🅞🅜","ᴹᵞ ᴹᴼᴹ","M⃫Y⃫ M⃫O⃫M⃫"]
+"fancy":["M̴̡̢̧̨̛̖̗̘̙̜̝̞̟̠̤̀́̕͘Ỳ̛̖̗̘̙̜̕ ̛̖̗̘̙̜̕M̛̖̗̀́̕͘Ờ̖̗̘̙̜̝̞́̕͘M̖̗̘̙̜̝̞̟̠̕!̖̕","𝓜𝓨 𝓜𝓞𝓜!","𝕄𝕐 𝕄𝕆𝕄!","𝘔𝘠 𝘔𝘖𝘔","𝙼𝚈 𝙼𝙾𝙼!","M҉Y҉ ҉M҉O҉M҉!҉","ᴍʏ ᴍᴏᴍ!","M̾Y̾ ̾M̾O̾M̾!̾","M͎Y͎ ͎M͎O͎M͎!͎","🅼🆈 🅼🅾🅼","🅜🅨 🅜🅞🅜","ᴹᵞ ᴹᴼᴹ","M⃫Y⃫ M⃫O⃫M⃫"],
+"images":[
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/18C87BD3-9D88-4526-94B8-BC94E4BA1B47.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/2AFBCB7B-6646-4FD0-8E25-903886B3C21A.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/2C0CB2CE-0659-45A4-B39F-232704DFF25B.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/36E0F086-C2AF-44F2-B7A2-1E53C1BDA012.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/3D6E6850-9ADB-45B5-ADF3-A609AA4A925D.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/49B2BF6C-6B42-49DC-8942-DA9C3D6341F4.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/4D883DA5-D9D4-4661-B601-1B9EC2906FCD.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/589A604D-0C2F-4625-9C80-D506539652C6.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/601718FD-233F-484A-BF00-3B15AB2B828E.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/79DED8F3-FF5D-4396-9006-B99FFB2DF818.gif} ",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/7A2FC3B1-1939-488D-AC7C-B979D4BF0753.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/7AA3477E-E404-423E-A37C-269AD1B60773.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/884D73C6-B0D1-49A0-8FD4-0BFA977312A7.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/A844F127-9706-414B-8C7B-E9334146938C.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/B53F5889-F175-4453-B524-FFE09E1A9CB6.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/DDD360D4-30F1-4CE0-8545-F9B12939A9A0.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/DF68B57F-2216-4C5E-9550-9CA377896D40.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/F63132EE-53FA-4476-91B6-D82017401792.gif}",
+"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/master/img/F6C23CD7-199F-42BA-BF79-17E71A941F75.gif}",
+"","","","","","","","","",""
+]
 }
 
 
@@ -56,11 +76,11 @@
 
 
 {
-"get out|GET OUT|Get out|Get Out|Leave":"It was worth it!",
-	"UGH|Ugh":"You know who else says \"Ugh\"? \n#sign#",
-	"Uncle|uncle|UNCLE|John":"You know who taught him?!?! MY MOM!",
-	"Dad|Your dad|your dad|DAD":"My dad. Why does everyone always think I'm gonna say \"my mom\"?",
-	"your mom|YOUR MOM|Your mom":"#ascii#",
-	"my mom|MY MOM|My mom":"#fancy#",
-	"you|me|mom|mother|MOM|Mom|ma|who|WHO|Who|dad|my|know|What|what|say|do|Do|Your|mo":"#myMom#"
+"get out|GET OUT|Get out|Get Out|Leave":"It was worth it! #images#",
+	"UGH|Ugh":"You know who else says \"Ugh\"? \n #images#",
+	"Uncle|uncle|UNCLE|John":"You know who taught him?!?! MY MOM! #images#",
+	"dad|Dad|DAD|Your dad|your dad|YOUR DAD":"My dad. Why does everyone always think I'm gonna say \"my mom\"? #images#",
+	"your mom|YOUR MOM|Your mom|Your Mom":"#myMom# #images#",
+	"my mom|MY MOM|My mom|My Mom":"#fancy# #images#",
+"dad|do|Do|Her|her|HER|know|Ma|ma|MA|me|mo|Mo|MO|mom|MOM|Mom|mother|my|say|Say|SAY|What|what|who|WHO|Who|Your|you":"#myMom#"
 }
