@@ -1,0 +1,29 @@
+{
+  "name": "musclemanbot",
+  "version": "1.0.0",
+  "description": "A twitterbot by Justin Riley that repeats the same joke over and over",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohiofi/MuscleManBot.git"
+  },
+  "keywords": [
+    "twitterbot",
+    "joke",
+    "cartoon"
+  ],
+  "author": "Justin Riley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohiofi/MuscleManBot/issues"
+  },
+  "homepage": "https://github.com/ohiofi/MuscleManBot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twit": "^2.2.11"
+  }
+}
