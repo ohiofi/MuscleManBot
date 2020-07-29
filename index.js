@@ -2,46 +2,47 @@ const express = require('express');
 const app = express();
 require('dotenv').config();
 const Twit = require('twit');
-// var T = new Twit({
-//   consumer_key:         process.env.CONSUMER_KEY,
-//   consumer_secret:      process.env.CONSUMER_SECRET,
-//   access_token:         process.env.ACCESS_KEY,
-//   access_token_secret:  process.env.ACCESS_SECRET,
-//   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
-//   strictSSL:            true,     // optional - requires SSL certificates to be valid.
-// });
+var T = new Twit({
+  consumer_key:         process.env.CONSUMER_KEY,
+  consumer_secret:      process.env.CONSUMER_SECRET,
+  access_token:         process.env.ACCESS_KEY,
+  access_token_secret:  process.env.ACCESS_SECRET,
+  timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
+  strictSSL:            true,     // optional - requires SSL certificates to be valid.
+});
 
 function getTimeline(){
   let options = {
     count: 25,
     exclude_replies: true
   };
-  let timeline = [];
-  timeline = T.get('statuses/home_timeline', options, twitterCallback);
-  return timeline
+
+  T.get('statuses/home_timeline', options,(err,data,response)=>{
+    console.log(data.length);
+    tweet_crafter(data);
+  })
 }
 
-function findGoodCandidate(arr){
+function findGoodCandidateIndex(arr){
   for(let i=0;i<arr.length;i++){
     let txt = arr[i].text;
     if (!passedBanlist(txt)){
-      console.log("- Failed Banlist");
+      console.log("- Failed Banlist - "+arr[i].text);
       continue
     }
     if (!containsKeyword(txt)){
-      console.log("- No Keyword Found");
+      console.log("- No Keyword Found - "+arr[i].text);
       continue
     }
     return i
   }
-  return null
+  return -1
 }
 
 function passedBanlist(str){
   str = str.toLowerCase();
   let banlist = process.env.BANLIST.split(",");
   for (let i = 0; i < banlist.length; ++i) {
-    console.log(banlist[i])
     if (str.indexOf(banlist[i]) > -1) {
       return false; // String is present
     }
@@ -111,20 +112,35 @@ function twitterCallback(err, data, response) {
   }
 }
 
-function generateText(){
-  //let myArray = getTimeline()
-  let myArray = [
-    {text:"lkjsdf"},
-    {text:"covid is death virus"},
-    {text:"steve is going to the mall. Who cares? Really."}
-  ]
-  let index = findGoodCandidate(myArray);
-  let tweetText = "You know who else"+keywordCut(myArray[index].text)+"?";
+
+  // let myArray = [
+  //   {text:"lkjsdf"},
+  //   {text:"covid is death virus"},
+  //   {text:"steve is going to the mall. Who cares? Really."}
+  // ]
+
+function tweet_crafter(myArray){
+  let index = findGoodCandidateIndex(myArray);
+  if(index == -1){
+    return
+  }
+  let tweetText = "You know who else"+keywordCut(myArray[index].text)
   tweetText = punctuationCut(tweetText);
-  return tweetText
+  tweetText+="? https://twitter.com/"+myArray[index].user.screen_name+"/status/"+myArray[index].id_str;// Append the URL of the @ mention";
+  console.log(tweetText);
+  let tweetObj = {
+    status: tweetText,
+    in_reply_to_status_id: myArray[index].id
+  };
+  T.post('statuses/update', tweetObj, twitterCallback)
 }
+
+getTimeline();
+setInterval(()=>{
+  getTimeline()
+}, 1000*60*59); //ms*s*m*h
 
 app.listen(
   process.env.PORT || 3000,
-  ()=>console.log("bot running\n"+generateText())
+  ()=>console.log("bot running")
 );
