@@ -50,8 +50,25 @@ function passedBanlist(str){
   return true; // No banlisted strings are present
 }
 
-const keywords = [" is "," isn't "," will "," won't "," wants "," can "," can't ",
-" made "," got "," has "," had "," went "]
+const keywords = [
+  " is ",
+  " isn't ",
+  " isn’t ",
+  " will ",
+  " won't ",
+  " won’t ",
+  " wants ",
+  " can ",
+  " can't ",
+  " can’t ",
+  " made ",
+  " got ",
+  " has ",
+  " hasn't ",
+  " hasn’t ",
+  " had ",
+  " went "
+]
 
 function containsKeyword(str){
   let lowerStr = str;
