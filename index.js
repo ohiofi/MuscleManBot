@@ -41,7 +41,7 @@ function findGoodCandidateIndex(arr){
 
 function passedBanlist(str){
   str = str.toLowerCase();
-  let banlist = process.env.BANLIST.split(",");
+  let banlist = process.env.BANLIST.toLowerCase().split(",");
   for (let i = 0; i < banlist.length; ++i) {
     if (str.indexOf(banlist[i]) > -1) {
       return false; // String is present
@@ -155,7 +155,7 @@ function tweet_crafter(myArray){
 getTimeline();
 setInterval(()=>{
   getTimeline()
-}, 1000*60*59); //ms*s*m*h
+}, 1000*60*121); //ms*s*m*h
 
 app.listen(
   process.env.PORT || 3000,
