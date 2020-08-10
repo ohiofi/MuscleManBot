@@ -26,7 +26,7 @@ function getTimeline(){
 function findGoodCandidateIndex(arr){
   for(let i=0;i<arr.length;i++){
     let txt = arr[i].text;
-    if (txt.length > 114){
+    if (txt.length > 115){
       console.log("- Too Long - "+arr[i].text);
       continue
     }
