@@ -13,7 +13,7 @@ var T = new Twit({
 
 function getTimeline(){
   let options = {
-    count: 25,
+    count: 35,
     exclude_replies: true
   };
 
