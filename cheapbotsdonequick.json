@@ -21,6 +21,7 @@
 "#ascii#",
 "#fancy#"
 ],
+"dance": "\n       |    👀    |\n        \\           /\n      ______|  |______ \n     /         ✊🏻 ___/\n      \\__✊🏻 ",
 "sign":["┌----------┐\n | MY MOM!! |\n└----------┘\n( \\\\ __/)||\n(•ㅅ•) ||\n/ 　 づ"],
 "calc":["according to my calculations...\n┌──────┐\n┃　　 MY 　　┃\n┃ 　   MOM!　 ┃\n└──────┘\n  7  ┃ 8┃  9┃  /┃\n  ━┛━┛━┛━┛\n 4  ┃5 ┃6  ┃ + ┃\n ━┛━┛━┛ ━┛\n 1  ┃ 2 ┃ 3 ┃= ┃\n ━┛ ━┛━┛━┛"],
 	"os":["O#os#","O#os#","O#os#","O#os#","0#os#","O", "0","o"],
@@ -28,8 +29,8 @@
 "emo":["🤣🤣🤣","​🏋️‍♂️​💪​🏋️‍♀️​","​💪​🌎​🏆​","​💪​🔥​","​💪​😎​","👩‍🍼","👩‍👦","🐦 🦝 🤢","🤰","🕺","🧟‍♂️","🤢🙏👻","🔥","​💪​🤣​","👕🕺","👕💪","💘","💖","💌","🥰","😍","😘","😻","💝","💗","💓","💞","💕","💟","❣️","❤️","💪","🏋️"],
 "hearts":["💘","💖","💌","🥰","😍","😘","😻","💝","💗","💓","💞","💕","💟","❣️","❤️"],
 
-"ascii":[
-"( \\\\ __/)\n( • . •)\n/ >👩 　your mom?! nooo...\n\n( \\\\ __/)\n( • - •)\n👩< \\\\ 　MY M#os#M#exs#",
+"ascii":["#bunny#",
+"( \\\\ __/)\n( • . •)\n/ >👩 　your mom?! nooo...\n\n( \\ __/)\n( • - •)\n👩< \\\\ 　MY M#os#M#exs#",
 "(•_•)\n<)　)╯MY　\n /　＼　\n　\n\\\\(•_•)\n(　(> 　M#os#M#exs#\n /　\\\\ \n \n(•_•) 👕\n<)　)╯ WOOO#os#!#exs#\n /　\\\\",
 "zzz\n　＜⌒/ヽ-､_＿_\n/＜_/＿＿＿＿/\n￣￣￣￣￣￣￣\n\n　　　∧_∧\n　　 (　･ω･)　MY M#os#M#exs#\n　 ＿|　⊃／(＿＿_\n／　└-(＿＿＿_／\n￣￣￣￣￣￣￣",
 "▬▬▬▬▬▬▬.◙.▬▬▬▬▬▬▬\n ═▂▄▄▓▄▄▂ \n◢◤ █▀▀████▄▄▄▄◢◤ \n█▄ █ █▄ ███▀▀▀▀▀▀▀╬ \n◥█████◤\n══╩══╩═\n╬═╬\n╬═╬\n╬═╬\n╬═╬\n╬═╬　just dropped down to say\n╬═╬\n╬═╬　MY M#os#M#exs#\n╬═╬🤢/\n╬═╬/▌\n╬═╬/  \\\\",
@@ -39,7 +40,7 @@
 "#calc#",
 "▗▚▚▝▞ ▗▚▚ ▉▗▚▚"
 ],
-"bunny":["Bro...　( \\\\__/ ) \n　　　( •ㅅ• )      Don’t ever talk to\n　 ＿ノ ヽ ノ＼＿      me or MY MOM\n`/　`/ ⌒Ｙ⌒ Ｙ　ヽ     ever again#exs# \n( 　(三ヽ人　 /　　　|\n|　ﾉ⌒＼ ￣￣ヽ　 ノ\n ヽ＿＿＿＞､＿＿_／\n　　  ｜( 王 ﾉ〈 　 (\\\\__/)    \n　　   /ﾐ`ー―彡\\\\　(•ㅅ•)  \n"],
+"bunny":["Bro...　( \\\\__/ ) \n　　　 ( •ㅅ• )      Don’t ever talk to\n　 ＿ノ ヽ ノ＼＿      me or MY MOM\n`/　`/ ⌒Ｙ⌒ Ｙ　ヽ     ever again#exs# \n( 　(三ヽ人　 /　　　|\n|　ﾉ⌒＼ ￣￣ヽ　 ノ\n ヽ＿＿＿＞､＿＿_／\n　　  ｜( 王 ﾉ〈 　 (＼_/)    \n　　   /ﾐ`ー―彡\\\\　(•ㅅ•)  \n"],
 "bunny2":["　    　/ ╰ 　　╯ \\\\ /　　\\\\>\n"],
 "starlaz":[
 "💚💚💚💚💚#emo#💚💚💚💚💚 #images_starla#",
@@ -419,15 +420,10 @@
 
 
 
-
-
-
-
-
-
 {
 "get out|GET OUT|Get out|Get Out|Leave":"#getOut#",
 "broke":"You know who else is \"broke\"?#exs#?! \n #images#",
+"miss":"You know who else is a \"Miss\"?#exs#?! \n Ms. Sorrenstein... a.k.a. my mom#exs# #images#",
 "glitch|Glitch|GLITCH":"You know who else is glitching?#exs#?! \n #images#",
 "found a bug|Found A Bug|FOUND A BUG":"You know who else found a bug?#exs#?! \n #images#",
 "so close|So Close|SO CLOSE":"You know who else is so close?#exs#?! \n #images#",
@@ -475,11 +471,11 @@
 "you're mom|You're mom|You're Mom|YOU'RE MOM|you’re mom|You’re mom|You’re Mom|YOU’RE MOM|youre mom|Youre mom|Youre Mom|YOURE MOM":"#youAre#",
 "ascii":"#ascii#",
 "rigby|Rigby|RIGBY|trash boat|Trash Boat|TRASH BOAT|Trash boat":"#no# bro!#exs# I like Trash Boat WAY better than Rigby anyways #images_rigby#",
-"mordecai|Mordecai|MORDECAI":"#no# bro!#exs# bro!#exs# #quotePhrase# #images_mordecai#",
-"benson|Benson|BENSON":"#no# bro!#exs# bro!#exs# #quotePhrase# #images_benson#",
+"mordecai|Mordecai|MORDECAI":"#no# bro!#exs# #quotePhrase# #images_mordecai#",
+"benson|Benson|BENSON":"#no# bro!#exs# #quotePhrase# #images_benson#",
 "pops|Pops|POPS":"#no# bro!#exs# bro!#exs# #quotePhrase# #images_pops#",
 "skips|Skips|SKIPS":"#no# bro!#exs# bro!#exs# #quotePhrase# #images_skips#",
-"hi-five|Hi-Five|HI-FIVE|ghost|Ghost|GHOST|fives|Fives|FIVES":"#no# bro!#exs# bro!#exs# #quotePhrase# #images_fives#",
+"hi-five|Hi-Five|HI-FIVE|ghost|Ghost|GHOST|fives|Fives|FIVES":"#no# bro!#exs# #quotePhrase# #images_fives#",
 "thomas|Thomas|THOMAS|margaret|Margaret|MARGARET|eileen|Eileen|EILEEN":"#no# bro!#exs# #quotePhrase# #images#",
 "crash pit|Crash Pit|CRASH PIT":"You're talking smack about the Crash Pit, bro?#exs#?!  #images#",
 "calculator":"You know who else can calculate?#exa#?",
