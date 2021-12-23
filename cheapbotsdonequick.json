@@ -21,7 +21,8 @@
 "#ascii#",
 "#fancy#"
 ],
-"demText":["umm... #demText#","you know... #demText#","who else... #demText#","hmm... #demText#","u know... #demText#","who... #demText#",""],
+"demText":["You know who else suffers from dementia?","You know who else... #demText2#"],
+"demText2":["umm... #demText2#","you know... #demText2#","who else... #demText2#","hmm... #demText2#","u know... #demText2#","who... #demText2#","uh #demText2#","","?"],
 "dance": "\n       |    👀    |\n        \\           /\n      ______|  |______ \n     /         ✊🏻 ___/\n      \\__✊🏻 ",
 "sign":["┌----------┐\n | MY MOM!! |\n└----------┘\n( \\\\ __/)||\n(•ㅅ•) ||\n/ 　 づ"],
 "calc":["according to my calculations...\n┌──────┐\n┃　　 MY 　　┃\n┃ 　   MOM!　 ┃\n└──────┘\n  7  ┃ 8┃  9┃  /┃\n  ━┛━┛━┛━┛\n 4  ┃5 ┃6  ┃ + ┃\n ━┛━┛━┛ ━┛\n 1  ┃ 2 ┃ 3 ┃= ┃\n ━┛ ━┛━┛━┛"],
@@ -713,12 +714,12 @@
 "skips|Skips|SKIPS":"#no# bro!#exs# #quotePhrase# #images_skips#",
 "hi-five|Hi-Five|HI-FIVE|ghost|Ghost|GHOST|fives|Fives|FIVES|five|Five|FIVE":"#no# bro!#exs# #quotePhrase# #images_fives#",
 "thomas|Thomas|THOMAS|margaret|Margaret|MARGARET|eileen|Eileen|EILEEN|cj|Cj|CJ|c.j.|C.j.|C.J.":"#no# bro!#exs# #quotePhrase# #images#",
-"dementia|Dementia|DEMENTIA|demensia|Demensia|DEMENSIA":"You know who else... #demText#? #images_dem#",
+"dementia|Dementia|DEMENTIA|demensia|Demensia|DEMENSIA":"#demText##exs#? #images_dem#",
 "crash pit|Crash Pit|CRASH PIT":"You're talking smack about the Crash Pit, bro?#exs#?!  #images#",
 "calculator":"You know who else can calculate?#exs#?",
 "rude|Rude|RUDE":"You know who else is rude?#exs#?",
 "sign":"#sign#",
 "bunny":"#bunny#",
-"c=8|C=8":"And as you can clearly see, C=8. Any questions?#exs#?",
+"c=8|C=8|equals|Equals|EQUALS":"And as you can clearly see, C=8. Any questions?#exs#?  #images#",
 ".":"#myMom#"
 }
