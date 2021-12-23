@@ -21,6 +21,7 @@
 "#ascii#",
 "#fancy#"
 ],
+"demText":["umm... #demText#","you know... #demText#","who else... #demText#","hmm... #demText#","u know... #demText#","who... #demText#",""],
 "dance": "\n       |    👀    |\n        \\           /\n      ______|  |______ \n     /         ✊🏻 ___/\n      \\__✊🏻 ",
 "sign":["┌----------┐\n | MY MOM!! |\n└----------┘\n( \\\\ __/)||\n(•ㅅ•) ||\n/ 　 づ"],
 "calc":["according to my calculations...\n┌──────┐\n┃　　 MY 　　┃\n┃ 　   MOM!　 ┃\n└──────┘\n  7  ┃ 8┃  9┃  /┃\n  ━┛━┛━┛━┛\n 4  ┃5 ┃6  ┃ + ┃\n ━┛━┛━┛ ━┛\n 1  ┃ 2 ┃ 3 ┃= ┃\n ━┛ ━┛━┛━┛"],
@@ -642,6 +643,15 @@
 "{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/_starla/starla03.png}",
 "{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/_starla/tumblr_nj2pm4H9nW1so18vqo1_1280.gif}",
 "{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/_starla/unnamed.gif}"
+],
+"images_dem":[
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem01.gif}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem02.jpeg}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem03.jpeg}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem04.jpeg}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem05.jpeg}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem06.jpeg}",
+	"{img https://raw.githubusercontent.com/ohiofi/MuscleManBot/Github_Public/img/dem07.gif}"
 ]
 }
 
@@ -702,11 +712,13 @@
 "pops|Pops|POPS":"#no# bro!#exs# #quotePhrase# #images_pops#",
 "skips|Skips|SKIPS":"#no# bro!#exs# #quotePhrase# #images_skips#",
 "hi-five|Hi-Five|HI-FIVE|ghost|Ghost|GHOST|fives|Fives|FIVES|five|Five|FIVE":"#no# bro!#exs# #quotePhrase# #images_fives#",
-"thomas|Thomas|THOMAS|margaret|Margaret|MARGARET|eileen|Eileen|EILEEN|cj|Cj|CJ|c.j.|C.j.|C.J.|":"#no# bro!#exs# #quotePhrase# #images#",
+"thomas|Thomas|THOMAS|margaret|Margaret|MARGARET|eileen|Eileen|EILEEN|cj|Cj|CJ|c.j.|C.j.|C.J.":"#no# bro!#exs# #quotePhrase# #images#",
+"dementia|Dementia|DEMENTIA|demensia|Demensia|DEMENSIA":"You know who else... #demText#? #images_dem#",
 "crash pit|Crash Pit|CRASH PIT":"You're talking smack about the Crash Pit, bro?#exs#?!  #images#",
 "calculator":"You know who else can calculate?#exs#?",
 "rude|Rude|RUDE":"You know who else is rude?#exs#?",
 "sign":"#sign#",
 "bunny":"#bunny#",
+"c=8|C=8":"And as you can clearly see, C=8. Any questions?#exs#?",
 ".":"#myMom#"
 }
